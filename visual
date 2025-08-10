@@ -6,3 +6,24 @@ def add_values(a, b):
 # Example usage:
 result = add_values(5, 7)
 print("The sum is:", result)
+# Visual code 
+import matplotlib.pyplot as plt
+
+# Example data
+years = [2018, 2019, 2020, 2021, 2022, 2023]
+sales = [150, 200, 170, 220, 300, 280]
+
+# Create line plot
+plt.plot(years, sales, marker='o', color='blue', linewidth=2, label='Sales')
+
+# Add titles and labels
+plt.title('Sales Over Years', fontsize=14)
+plt.xlabel('Year', fontsize=12)
+plt.ylabel('Sales (in units)', fontsize=12)
+
+# Show grid and legend
+plt.grid(True, linestyle='--', alpha=0.6)
+plt.legend()
+
+# Display the plot
+plt.show()
