@@ -27,3 +27,4 @@ plt.legend()
 
 # Display the plot
 plt.show()
+# ARDI models is good to forcast time series analysis 
