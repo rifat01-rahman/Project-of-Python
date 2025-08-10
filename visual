@@ -1,0 +1,8 @@
+def add_values(a, b):
+    """
+    This function takes two inputs and returns their sum.
+    """
+    return a + b
+# Example usage:
+result = add_values(5, 7)
+print("The sum is:", result)
