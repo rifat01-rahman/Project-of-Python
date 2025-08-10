@@ -27,3 +27,6 @@ plt.legend()
 
 # Display the plot
 plt.show()
+# Another one:
+dg = 'You have to follow'
+print(dg)
